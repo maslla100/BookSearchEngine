@@ -3,7 +3,7 @@ import './App.css';
 import { Outlet } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import { ApolloProvider } from '@apollo/client';
-import apolloClient from './apolloClient'; // Make sure the path is correct
+import apolloClient from './apolloClient';
 
 function App() {
   return (

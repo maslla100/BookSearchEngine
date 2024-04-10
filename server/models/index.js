@@ -1,3 +1,6 @@
+// Import both models
 const User = require('./User');
+const Book = require('./Book');
 
-module.exports = { User };
+// Export the models
+module.exports = { User, Book };
